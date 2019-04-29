@@ -45,3 +45,4 @@ L'application permet:
 
 - l'item du menu Contact affiche les contacts pour nous joindre.
 
+- une page cachée est accessible : en saisissant l'URI suivante: http://localhost:3000/welcome/votre_nom où 'votre_nom' est un texte libre...
