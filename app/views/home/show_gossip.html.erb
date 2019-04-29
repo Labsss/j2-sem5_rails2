@@ -1,2 +1,8 @@
-<h1>Home#show_gossip</h1>
-<p>Find me in app/views/home/show_gossip.html.erb</p>
+<h2>PAGE POTIN !</h2>
+
+  <p> Voici le potin n° <%= @gossip.id%><br/>
+  Son auteur : <%= @gossip.user.last_name %><br/>
+  Le titre : <%= @gossip.title %><br/>
+  Le contenu du potin : <%= @gossip.content %>
+  </p>
+

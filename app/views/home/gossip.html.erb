@@ -3,10 +3,10 @@
 
 <% @all_gossips.each do |gossip| %>
   <p>
-    Auteur:
+    <%= link_to 'Auteur:', user_show_path(:user_id => gossip.user.id) %> 
     <%= gossip.user.last_name %> 
     Titre:
     <%= gossip.title %>
-    <%# <%= link_to 'Show', article_path(article) %> 
+    <%= link_to 'Afficher', home_show_gossip_path(:id => gossip.id) %> 
   </p>
 <% end %>

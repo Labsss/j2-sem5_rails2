@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
+  get 'user/show'
+  
   get 'home/gossip'
   
-  get 'home/show_gossip'
+  get 'home/show_gossip', to: 'home#show_gossip'
 
   get 'welcome/:first_name', to: 'welcome#first_name'
 
