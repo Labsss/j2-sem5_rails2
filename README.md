@@ -34,6 +34,14 @@ This applicaiton is made with love by **Alexandre Labonne (@Lab's)** and **Brice
 - Lancer le serveur avec ```$ rails server```
 - Dans le navigateur, ==http://localhost:3000==
 
-
 ## Les fonctionnalités
+Le header permer:
+
+- d'afficher les potins en card Bootstrap avec l'item du menu Home: l'auteur et le titre du ragôt.
+  * chaque card permet d'avoir le profil utilisateur et
+  * le contenu du potin 
+
+- l'item du menu Team affiche les membres de la team Toulouse
+
+- l'item du menu Contact affiche les contacts pour nous joindre.
 
