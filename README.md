@@ -21,17 +21,18 @@ This applicaiton is made with love by Alexandre Labonne (@Lab's) and Brice Jones
 ## System dependencies
 - base de données PostGreSQL
 
-* Configuration
-- faire un git clone git@github.com:notmoebius/sem5j1.git
-- cd rep_rails_du_projet
-- rm Gemfile.lock puis
-- bundle install
+## Configuration
+- faire un ```git clone git@github.com:notmoebius/sem5j1.git```
+- ```cd rep_rails_du_projet```
+- ```rm Gemfile.lock``` puis
+- ```bundle install```
 - faire un ```rails db:create``` pour la BDD
 - faire un ```rails db:migrate```pour créer les tables de la BDD
-- faire un ```rails db:seed```pour alimenter la BDD avec u jeu d'essai.
+- faire un ```rails db:seed```pour alimenter la BDD avec un jeu d'essai.
 
-* How to run the test suite
+## How to run the test suite
 - Lancer le serveur avec ```$ rails server```
+- Dans le navigateur, ==http://localhost:3000==
 
 
 ## Les fonctionnalités
