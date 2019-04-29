@@ -3,7 +3,7 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-This applicaiton is made with love by Alexandre Labonne (@Lab's) and Brice Jones (@brice) from Toulouse.
+This applicaiton is made with love by **Alexandre Labonne (@Lab's)** and **Brice Jones (@brice)** from Toulouse.
 
 ## Ruby/rails version
   - version ruby:
