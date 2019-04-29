@@ -1,12 +1,19 @@
-<h1>Home Liste des potins</h1>
+<h1>Derniers ragôts</h1>
+  <div class="card-deck">
+    <div class="col-sm-6">
+        <% @all_gossips.each do |gossip| %>
+          <div class="card border-info text-white bg-info mb-3">
+            <div class="card-header bg-light text-warning">
+              <%= link_to 'Auteur:', user_show_path(:user_id => gossip.user.id), style: "text-decoration: none" %>
+              <%= gossip.user.first_name %> <%= gossip.user.last_name %>
+            </div>
+            <div class="card-body">
+              Titre du ragôt : 
+              <h5 class="card-title"><%= gossip.title %></h5>
+              <%= link_to 'Détail', home_show_gossip_path(:id => gossip.id), class: 'btn btn-secondary bg-info' %>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </div>
 
-
-<% @all_gossips.each do |gossip| %>
-  <p>
-    <%= link_to 'Auteur:', user_show_path(:user_id => gossip.user.id) %> 
-    <%= gossip.user.last_name %> 
-    Titre:
-    <%= gossip.title %>
-    <%= link_to 'Afficher', home_show_gossip_path(:id => gossip.id) %> 
-  </p>
-<% end %>

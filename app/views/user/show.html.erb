@@ -1,2 +1,10 @@
-<h1>User#show</h1>
-<p>Find me in app/views/user/show.html.erb</p>
+<h2>Profil utilisateur</h2>
+
+  <p> 
+  Son prénom et nom : <%= @user.first_name %> <%= @user.last_name %><br/>
+  Son mail : <%= @user.email %><br/>
+  Son age : <%= @user.age %><br/>
+  Sa ville : <%= @user.city.name %><br/>
+  Ma vie, mon oeuvre: <%= @user.description %>
+  </p>
+
