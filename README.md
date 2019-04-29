@@ -35,7 +35,7 @@ This applicaiton is made with love by **Alexandre Labonne (@Lab's)** and **Brice
 - Dans le navigateur, ==http://localhost:3000==
 
 ## Les fonctionnalités
-Le header permer:
+L'application permet:
 
 - d'afficher les potins en card Bootstrap avec l'item du menu Home: l'auteur et le titre du ragôt.
   * chaque card permet d'avoir le profil utilisateur et
