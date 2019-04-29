@@ -20,6 +20,7 @@ This applicaiton is made with love by **Alexandre Labonne (@Lab's)** and **Brice
 
 ## System dependencies
 - base de données PostGreSQL
+- Pensez à changer le database.yml pour mettre un user adapté à votre contexte. Cela pourrait empecher le db:migrate !
 
 ## Configuration
 - faire un ```git clone git@github.com:notmoebius/sem5j1.git```
