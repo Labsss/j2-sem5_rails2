@@ -23,7 +23,6 @@ default: &default
 
 development:
   <<: *default
-  username: postgres
   database: the-gossip-project_development
 
   # The specified database role being used to connect to postgres.
